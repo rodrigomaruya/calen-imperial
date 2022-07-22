@@ -16,26 +16,26 @@ function calcular(){
         var he = a - 2019
         var h1 = he + 1
         seg.innerHTML += `${a} é Heiwa ano ${h1}<br>`
-        img.setAttribute('src' , 'heiwa1.png')
+        img.setAttribute('src' , 'imagem/heiwa1.png')
          
     }
     else if (a >= 1989  ){
         var h = a - 1989
         var h2 = h + 1
         seg.innerHTML +=`${a} é Heisei ano ${h2}<br>` 
-        img.setAttribute('src' , 'heisei.png')
+        img.setAttribute('src' , 'imagem/heisei.png')
     }
     else if (a >= 1926 ){
         var s = a - 1926
         var h3 = s +1
         seg.innerHTML += `${a} é Showa ano ${h3}<br> `
-        img.setAttribute('src' , 'showa.png')
+        img.setAttribute('src' , 'imagem/showa.png')
     }
     else if( a >= 1912 ){ 
         var t = a - 1912
         var h4 = t + 1
         seg.innerHTML += `${a} é Taisho ano ${h4}<br>`
-        img.setAttribute('src' , 'taisho.png')
+        img.setAttribute('src' , 'imagem/taisho.png')
         
     }
     seg.appendChild(img)
