@@ -14,9 +14,14 @@
 */
 body{
     background-color:#F2B807;
+    background-image: url("imagem/sakura2.png");
     background-repeat: no-repeat;
     background-position:right bottom;
+    background-size:cover;
 }
+
+.sakura{
+    margin: 0px;
     min-width: 100px;
     max-width: 200px;
 }
