@@ -33,13 +33,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+    
+    align-content: center;
     background-image: linear-gradient(to left,#F2A007,#A6530A);
     color: white;
     
 }
 header h1{
     display: inline-block;
-    padding-top: 7rem;
+    padding-top: 6rem;
     font-family: 'Mochiy Pop One', sans-serif;
     text-align: center;
     font-size: 2em;
